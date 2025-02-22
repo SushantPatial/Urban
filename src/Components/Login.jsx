@@ -24,7 +24,7 @@ import {
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { authentication } from "../Utils/Firebase-config";
-import { GoogleAuthProvider } from "firebase/auth";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import Flag from "./Flag";
 import { verify } from "../Redux/AuthReducer/action";
 // import "../StyleComponents/phone.css";
@@ -41,8 +41,7 @@ export function Login() {
 
   const handleGmailLogin = () => {
     const provider = new GoogleAuthProvider();
-    authentication
-      .signInWithPopup(provider)
+    signInWithPopup(authentication, provider)
       .then((result) => {
         const user = result.user;
         console.log(user.uid);
