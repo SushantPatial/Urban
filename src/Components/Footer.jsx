@@ -87,18 +87,6 @@ export default function LargeWithAppLinksAndSocial() {
             <Link href={"#"}>Terms of Service</Link>
             <Link href={"#"}>Law Enforcement</Link>
           </Stack>
-
-          <Stack align={"flex-start"}>
-            <ListHeader>Install App</ListHeader>
-            {/* <AppStoreBadge /> */}
-            <a href="https://play.google.com/store/search?q=urban+company&c=apps&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-              <img
-                alt="Get it on Google Play"
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-              />
-            </a>
-            {/* <PlayStoreBadge /> */}
-          </Stack>
         </SimpleGrid>
       </Container>
 
@@ -116,7 +104,7 @@ export default function LargeWithAppLinksAndSocial() {
           justify={{ md: "space-between" }}
           align={{ md: "center" }}
         >
-          <Text>© 2022 Urban Company. All rights reserved</Text>
+          <Text>© 2025 Nanny System. All rights reserved</Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton label={"Twitter"} href={"#"}>
               <FaTwitter />

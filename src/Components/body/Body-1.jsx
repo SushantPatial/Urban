@@ -31,7 +31,12 @@ const Body_1 = () => {
   return (
     <div>
       <Box className="hero" pos={"relative"}>
-        <Image w={"56%"} src={woman} />
+        <Image
+          w={"56%"}
+          src={
+            "https://images.pexels.com/photos/755049/pexels-photo-755049.jpeg?cs=srgb&dl=pexels-olly-755049.jpg&fm=jpg"
+          }
+        />
 
         <Box
           width={"100%"}
@@ -51,7 +56,7 @@ const Body_1 = () => {
             h={"100%"}
           >
             <VStack gap={5}>
-              <Text className="heading">URBAN COMPANY</Text>
+              <Text className="heading">Nanny System</Text>
               <Text className="subHeading">
                 Quality home services, on demand
               </Text>

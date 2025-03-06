@@ -48,7 +48,6 @@ export default function LandingPage_Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const Links = [
-    { title: "Blog", link: "/blog" },
     { title: "Register as Proffessional", link: "/" },
     { title: "My Bookings", link: "/bookings" },
   ];
@@ -86,10 +85,17 @@ export default function LandingPage_Navbar() {
           >
             <Box>
               <Go to={`/${localStorage.getItem("location")}`}>
-                <Image
-                  src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"
-                  width={"30%"}
-                />
+                <p
+                  style={{
+                    fontSize: "20px",
+                    fontWeight: "bold",
+                    color: "white",
+                    padding: "20px 0",
+                    marginBottom: 0,
+                  }}
+                >
+                  Nanny System
+                </p>
               </Go>
             </Box>
             <HStack
