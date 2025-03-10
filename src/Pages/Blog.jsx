@@ -40,7 +40,7 @@ const Blog = () => {
             </a>{" "}
             for updates, otherwise we&rsquo;ll be back up shortly!
           </p>
-          <p>&mdash; The Nanny System Team</p>
+          <p>&mdash; The Find My Nanny Team</p>
         </div>
       </article>
     </div>

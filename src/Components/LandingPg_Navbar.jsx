@@ -94,7 +94,7 @@ export default function LandingPage_Navbar() {
                     marginBottom: 0,
                   }}
                 >
-                  Nanny System
+                  Find My Nanny
                 </p>
               </Go>
             </Box>
