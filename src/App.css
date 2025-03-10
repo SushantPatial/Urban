@@ -37,3 +37,53 @@
   }
 }
 
+.why-urban-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 120px;
+  background-color: #fff;
+}
+
+.left-section {
+  width: 50%;
+  text-align: left;
+}
+
+.left-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.left-section p {
+  margin: 0
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.right-section {
+  width: 40%;
+  padding: 30px 30px;
+  background-color: #f7faff;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.quality-icon {
+  font-size: 60px;
+  color: #3498db;
+}
+
+.right-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.right-section p {
+  color: #666;
+}
